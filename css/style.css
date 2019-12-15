@@ -1,0 +1,117 @@
+body{
+	font: 15px/1.5 Arial, Helvetica, sans-serif;
+    padding: 0;
+    background-color:   #fff5da;
+}
+/* global */
+.container{
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+	min-height: 100%;
+}
+
+header ul{
+	padding: 0;
+	margin: 0;
+}
+/* header **/
+header{
+	padding-top: 20px;
+	min-height: 70px;
+}
+header a {
+	color: black;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 10px;
+	font-style: 
+}
+
+
+header li{
+	float: left;
+	display: inline;
+	padding: 0 20px 0 20px;
+	margin-right: 10px; 
+}
+header li{
+	float: left;
+	display: inline;
+	padding: 0 20px 0 20px; 
+}
+header #branding{
+	float: left;
+}
+
+header #branding h1{
+	margin: 0;
+	padding-right: 120px;
+	padding-left: 120px;
+}
+
+header nav{
+	float: right;
+	margin-top: 10px;
+}
+
+header .highlight, header .current a{
+	color: black;
+	font-weight: bold;
+}
+
+header a:hover{
+	color: #cccccc;
+font-weight: bold;
+}
+/* showcase */
+#showcase{
+	min-height:400px;
+	text-align: left;
+	color:  black
+}
+
+#showcase h1{
+	margin-left: 0px;
+	font-size: 70px;
+	margin-bottom: 0px;
+	font-style: serif;
+}
+h1.serif {
+    font-family: "Times New Roman", Times, serif;
+};
+
+#showcse p{
+	font-size: 20px;
+	margin-left: 100px;
+	margin-bottom: 10px;
+}
+#showcase img{
+	float: right;
+	margin-right: 0px;
+}
+/* sidebar */
+aside#sidebar{
+	float: left;
+	width: 30%;
+	margin-top: 10px;
+	min-height: 100%;
+}
+/* options */
+.buttons_jhfj button{
+	height: 38px;
+	border: 30px;
+	padding-left: 20px;
+	padding-right: 20px;
+	color: black;
+	border-radius: 5px;
+	margin-left: 0px;
+	margin-bottom: 40px;
+}
+.buttons_jhfj button:nth-child(1){
+	background: #ff6666;
+}
+.buttons_jhfj button:nth-child(2){
+	background: transparent;
+	border:solid 1px black;
+}
